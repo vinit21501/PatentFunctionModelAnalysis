@@ -87,7 +87,7 @@ def extract_pdf_content(pdf_path):
         
         return {
             'structured_text': structured_text,
-            'images': images_data,
+            'images': [],
             'metadata': {
                 'page_count': len(doc),
                 'image_count': len(images_data),
